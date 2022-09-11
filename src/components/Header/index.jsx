@@ -158,49 +158,53 @@ export default function Header() {
               display={{ md: "none" }}
               listStyleType={"none"}
             >
-              <ListItem
-                onClick={() => handleNavigation("/")}
-                cursor={"pointer"}
-                fontWeight={"bold"}
-                _hover={{ color: "#12FCEE", cursor: "pointer" }}
-                transition={"all 0.2s ease-in-out"}
-                outline={"none"}
-              >
-                Inicio
-              </ListItem>
-              <ListItem
-                onClick={() => handleNavigation("/servicos")}
-                cursor={"pointer"}
-                fontWeight={"bold"}
-                _hover={{ color: "#12FCEE", cursor: "pointer" }}
-                transition={"all 0.2s ease-in-out"}
-                outline={"none"}
-                mt={"10px"}
-              >
-                Serviços
-              </ListItem>
-              <ListItem
-                onClick={() => handleNavigation("/contato")}
-                cursor={"pointer"}
-                fontWeight={"bold"}
-                _hover={{ color: "#12FCEE", cursor: "pointer" }}
-                transition={"all 0.2s ease-in-out"}
-                outline={"none"}
-                mt={"10px"}
-              >
-                Contatos
-              </ListItem>
-              <ListItem
-                onClick={() => handleNavigation("/sobre")}
-                cursor={"pointer"}
-                fontWeight={"bold"}
-                _hover={{ color: "#12FCEE", cursor: "pointer" }}
-                transition={"all 0.2s ease-in-out"}
-                outline={"none"}
-                mt={"10px"}
-              >
-                Sobre
-              </ListItem>
+              <Link href="/">
+                <ListItem
+                  cursor={"pointer"}
+                  fontWeight={"bold"}
+                  _hover={{ color: "#12FCEE", cursor: "pointer" }}
+                  transition={"all 0.2s ease-in-out"}
+                  outline={"none"}
+                >
+                  Inicio
+                </ListItem>
+              </Link>
+              <Link href="/servicos">
+                <ListItem
+                  cursor={"pointer"}
+                  fontWeight={"bold"}
+                  _hover={{ color: "#12FCEE", cursor: "pointer" }}
+                  transition={"all 0.2s ease-in-out"}
+                  outline={"none"}
+                  mt={"10px"}
+                >
+                  Serviços
+                </ListItem>
+              </Link>
+              <Link href="/contatos">
+                <ListItem
+                  cursor={"pointer"}
+                  fontWeight={"bold"}
+                  _hover={{ color: "#12FCEE", cursor: "pointer" }}
+                  transition={"all 0.2s ease-in-out"}
+                  outline={"none"}
+                  mt={"10px"}
+                >
+                  Contatos
+                </ListItem>
+              </Link>
+              <Link href="/sobre">
+                <ListItem
+                  cursor={"pointer"}
+                  fontWeight={"bold"}
+                  _hover={{ color: "#12FCEE", cursor: "pointer" }}
+                  transition={"all 0.2s ease-in-out"}
+                  outline={"none"}
+                  mt={"10px"}
+                >
+                  Sobre
+                </ListItem>
+              </Link>
             </UnorderedList>
           </Flex>
         </Collapse>
