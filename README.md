@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Refribek - Limpeza e manutenção de Splits :green_heart:
 
-## Getting Started
+#### Projeto desenvolvido com Lucas Roque souza
 
-First, run the development server:
+### Deploy da aplicação com Vercel: :octocat::
 
-```bash
-npm run dev
-# or
-yarn dev
+[Refribek](https://refribek.vercel.app/)
+
+> Status do Projeto: Em Andamento 🕐:
+
+#### Conhecimentos Adquiridos/Utilizados:
+
+- Componentização dos itens do site para melhor controle do código;
+- Estilização em arquivos diferentes para melhor organização;
+- Utilização da biblioteca React e seus hooks;
+- Utilização da biblioteca Chakra UI;
+- Utilização de styled-components para estilização;
+- Gerenciamento de Projetos
+- Usabilidade e Experiência do Cliente
+
+### Tecnologias:
+
+- <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
+- <img src="https://img.shields.io/static/v1?label=Hooks&message=react&color=blue&style=for-the-badge&logo=REACT"/>
+- <img src="https://img.shields.io/static/v1?label=javascript&message=Programming%20language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
+- <img src="https://img.shields.io/static/v1?label=styled-components&message=LIB&color=red&style=for-the-badge&logo=styled-components"/>
+- <img src="https://img.shields.io/static/v1?label=jsx&message=Markup&language&color=orange&style=for-the-badge&logo=JSX"/>
+
+### Como rodar a aplicação:
+
+Instale as dependencias:
+
+```
+yarn create next-app
+yarn add swiper
+yarn add react-icons
+yarn add styled-components
+yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Execute a aplicação:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+yarn start
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Linguagens e libs :books:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [React](https://pt-br.reactjs.org/)
