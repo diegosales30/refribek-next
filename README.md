@@ -36,6 +36,7 @@ yarn add swiper
 yarn add react-icons
 yarn add styled-components
 yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion
+yarn add react-simple-image-slider
 
 ```
 

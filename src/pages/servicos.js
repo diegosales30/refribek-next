@@ -8,14 +8,14 @@ import img1 from "../../src/assets/imagens/img5.png";
 import Main from "../components/Main";
 import { useColorModeValue } from "@chakra-ui/react";
 
+import SwiperServices from "../components/SwiperServices/index";
+
 const Servicos = () => {
   return (
     <Box bg={useColorModeValue("gray.50", "gray.800")}>
       <Main>
         <Heading as={"h2"}>Galeria</Heading>
-
-        {/* <SwiperTh /> */}
-
+        <SwiperServices />
         <Box maxW={"1280px"} mb={"30px"} mt={10}>
           <Flex
             display={"flex"}
